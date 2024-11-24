@@ -44,7 +44,7 @@ public class PersonService {
                 Person person = new Person();
                 person.setId(record.get("roll_no")); // Ensure "id" matches the CSV header
                 person.setStudent_id(record.get("student_id"));
-                person.setStudent_name(record.get("student_name"));
+                person.setStudentName(record.get("student_name"));
                 person.setFirst_year_section_rollno(record.get("first_year_section_rollno"));
                 person.setGroup(record.get("group"));
                 person.setCollege_email_id(record.get("college_email_id"));
@@ -64,7 +64,7 @@ public class PersonService {
         if (existingPerson.isPresent()) {
             Person personToUpdate = existingPerson.get();
             personToUpdate.setStudent_id(person.getStudent_id());
-            personToUpdate.setStudent_name(person.getStudent_name());
+            personToUpdate.setStudentName(person.getStudentName());
             personToUpdate.setFirst_year_section_rollno(person.getFirst_year_section_rollno());
             personToUpdate.setGroup(person.getGroup());
             personToUpdate.setCollege_email_id(person.getCollege_email_id());

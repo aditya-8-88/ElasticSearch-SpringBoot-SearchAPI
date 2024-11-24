@@ -16,7 +16,7 @@ public class Person {
 	@Id
     private String id;
     private String student_id;
-    private String student_name;
+    private String studentName;
     private String first_year_section_rollno;
     private String group;
     private String college_email_id;
