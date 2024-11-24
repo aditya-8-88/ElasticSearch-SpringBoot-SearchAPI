@@ -129,5 +129,3 @@ Feel free to contribute to this project or open an issue if you encounter any pr
 3. **Configuration for the CSV file**: How to modify the CSV path in `application.properties`.
 4. **Testing Endpoints**: Instructions on how to test the endpoints with Postman.
 5. **Troubleshooting**: Common issues with Docker and Spring Boot are addressed.
-
-You can now copy and paste this into your `README.md` file. Let me know if you need further modifications!
