@@ -1,4 +1,4 @@
-# Integrating Elasticsearch in Spring Boot
+# ElasticSearch-SpringBoot-SearchAPI
 
 This project demonstrates how to integrate Elasticsearch functionality with a Spring Boot application, leveraging Docker for a seamless Elasticsearch setup.
 
